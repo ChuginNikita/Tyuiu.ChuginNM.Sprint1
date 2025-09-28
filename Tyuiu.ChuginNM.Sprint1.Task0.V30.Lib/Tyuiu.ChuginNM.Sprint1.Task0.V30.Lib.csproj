@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EE54B507-3553-4E79-A227-7A62B1B0B173}</ProjectGuid>
+    <ProjectGuid>{6250B6DF-F82D-4337-AFE5-E74F3E05C5F7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Tyuiu.ChuginNM.Sprint1.Task0.V30.Lib</RootNamespace>
