@@ -1,14 +1,19 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
+﻿using System;
+using Tyuiu.ChuginNM.Sprint1.Task1.V12.Lib;
 
 namespace Tyuiu.ChuginNM.Sprint1.Task1.V12.Test
 {
     [TestClass]
-    public class DataServiceTest
+    public sealed class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ValidExpression()
         {
+            DataService ds = new DataService();
+            double x = 1.0;
+            double y = 2.0;
+            var res = ds.Calculate(x, y);
+            Assert.AreEqual(res, 0.5);
         }
     }
 }
