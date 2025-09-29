@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tyuiu.ChuginNM.Sprint1.Task1.V12.Lib
 {
-    public class Class1
+    public class DataService
     {
     }
 }
