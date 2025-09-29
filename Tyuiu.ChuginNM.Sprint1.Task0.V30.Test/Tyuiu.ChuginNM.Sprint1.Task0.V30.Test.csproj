@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1E9405BF-79BF-4C3E-B0E5-81829CBC30C2}</ProjectGuid>
+    <ProjectGuid>{BD7295AF-06BF-4B1E-8E1A-09ECF54DB46D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Tyuiu.ChuginNM.Sprint1.Task0.V30.Test</RootNamespace>
@@ -57,7 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tyuiu.ChuginNM.Sprint1.Task0.V30.Lib\Tyuiu.ChuginNM.Sprint1.Task0.V30.Lib.csproj">
-      <Project>{f00e8d47-de8d-43ed-bc67-9d0b1de854ed}</Project>
+      <Project>{0201ccfb-a3dc-4371-b6c3-191af97b0cb0}</Project>
       <Name>Tyuiu.ChuginNM.Sprint1.Task0.V30.Lib</Name>
     </ProjectReference>
   </ItemGroup>
