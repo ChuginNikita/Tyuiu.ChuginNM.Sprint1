@@ -6,7 +6,7 @@ namespace Tyuiu.ChuginNM.Sprint1.Task3.V9.Lib
     {
         public double ConvertMinutesToHours(int minutes)
         {
-            return minutes / 60.0;
+            return Math.Round(minutes / 60.0, 3);
         }
     }
 }
