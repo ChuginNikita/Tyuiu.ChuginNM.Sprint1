@@ -43,7 +43,7 @@ namespace Tyuiu.ChuginNM.Sprint1.Task1.V12
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine(ds.Calculate(x, y));
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
