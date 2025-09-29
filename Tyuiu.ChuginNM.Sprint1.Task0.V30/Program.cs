@@ -12,10 +12,11 @@ namespace Tyuiu.ChuginNM.Sprint1.Task0.V30
     {
         static void Main(string[] args)
         {
+            DataService ds = new DataService();
             Console.Title = "Спринт #1 | Выполнил: Чугин Н. М. | АСОиУб-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Создание решения по спринту                                       *");
+            Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
             Console.WriteLine("* Задание #0                                                              *");
             Console.WriteLine("* Вариант #30                                                             *");
             Console.WriteLine("* Выполнил: Чугин Никита Максимович | АСОиУб-25-1                         *");
@@ -31,8 +32,10 @@ namespace Tyuiu.ChuginNM.Sprint1.Task0.V30
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ                                                               *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(DataService.calcAnswer(20, 5, 4));
-            Console.ReadKey();
+
+            Console.WriteLine(ds.Calculate());
+
+            Console.ReadLine();
         }
     }
 

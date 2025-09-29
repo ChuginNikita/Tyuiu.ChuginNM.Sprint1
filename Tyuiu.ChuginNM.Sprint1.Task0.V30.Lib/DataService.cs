@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using tyuiu.cources.programming.interfaces.Sprint1;
 
 namespace Tyuiu.ChuginNM.Sprint1.Task0.V30.Lib
 {
-    public class DataService
+    public class DataService : ISprint1Task0V30
     {
-        public static int calcAnswer(int x, int y, int z)
+        public double Calculate()
         {
-            return x * y - z;
+            return 20 * 5 - 4;
         }
     }
 }
