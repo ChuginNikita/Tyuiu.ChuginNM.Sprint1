@@ -12,9 +12,9 @@ namespace Tyuiu.ChuginNM.Sprint1.Task5.V6
             Console.Title = "Спринт #1 | Выполнил: Чугин Н. М. | АСОиУб-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Class Math                                                        *");
+            Console.WriteLine("* Тема: Преобразование типов и класс Convert                              *");
             Console.WriteLine("* Задание #5                                                              *");
-            Console.WriteLine("* Вариант #6                                                             *");
+            Console.WriteLine("* Вариант #6                                                              *");
             Console.WriteLine("* Выполнил: Чугин Никита Максимович | АСОиУб-25-1                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
