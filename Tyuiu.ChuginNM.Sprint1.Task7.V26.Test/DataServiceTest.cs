@@ -9,8 +9,8 @@ namespace Tyuiu.ChuginNM.Sprint1.Task7.V26.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 6, y = 7;
-            Assert.AreEqual(1.18, ds.Calculate(x, y));
+            double x = 2, y = 4;
+            Assert.AreEqual(0.754, ds.Calculate(x, y));
 
         }
     }
