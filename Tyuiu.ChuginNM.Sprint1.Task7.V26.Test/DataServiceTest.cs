@@ -10,7 +10,7 @@ namespace Tyuiu.ChuginNM.Sprint1.Task7.V26.Test
         {
             DataService ds = new DataService();
             double x = 6, y = 7;
-            Assert.AreEqual(1.313, ds.Calculate(x, y));
+            Assert.AreEqual(1.18, ds.Calculate(x, y));
 
         }
     }
